@@ -1,6 +1,6 @@
 <?php
 
-namespace :package_name\Test;
+namespace frozentest\Test;
 
 class ExampleTest extends \PHPUnit_Framework_TestCase
 {

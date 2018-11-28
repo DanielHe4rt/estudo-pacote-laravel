@@ -1,13 +1,13 @@
 {
-    "name": ":organization/:package_name",
-    "description": ":package_description",
-    "homepage": "https://github.com/:organization/:package_name",
+    "name": "lab123/frozentest",
+    "description": "Test Package ",
+    "homepage": "https://github.com/lab123/frozentest",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website",
+            "name": "Daniel Reis",
+            "email": "idanielreiss@gmail.com",
+            "homepage": "https://danielgreis.me/",
             "role": "Developer"
         }
     ],
@@ -21,12 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            ":package_name\\": "src"
+            "frozentest\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            ":package_name\\Test\\": "tests"
+            "frozentest\\Test\\": "tests"
         }
     },
     "scripts": {

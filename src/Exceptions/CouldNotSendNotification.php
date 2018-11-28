@@ -1,6 +1,6 @@
 <?php
 
-namespace :package_name\Exceptions;
+namespace frozentest\Exceptions;
 
 class CouldNotSendNotification extends \Exception
 {

@@ -1,9 +1,9 @@
 <?php
-namespace :package_name;
+namespace frozentest;
 
 use Illuminate\Support\ServiceProvider;
 
-class :package_nameServiceProvider extends ServiceProvider
+class frozentestServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
@@ -11,7 +11,7 @@ class :package_nameServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/Config/config.php' => config_path(':package_name.php'),
+            __DIR__.'/Config/config.php' => config_path('frozentest.php'),
         ], 'config');
     }
 
@@ -21,7 +21,7 @@ class :package_nameServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/config/courier.php', ':package_name'
+            __DIR__.'/config/courier.php', 'frozentest'
         );
     }
 }
