@@ -1,6 +1,7 @@
 <?php
 namespace frozentest;
 
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider;
 
 class frozentestServiceProvider extends ServiceProvider
@@ -10,9 +11,7 @@ class frozentestServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->publishes([
-            __DIR__.'/Config/config.php' => config_path('frozentest.php'),
-        ], 'config');
+
     }
 
     /**
@@ -20,8 +19,9 @@ class frozentestServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(
-            __DIR__.'/config/courier.php', 'frozentest'
-        );
+
+       $this->app->singleton('hello.world',function($app){
+            return new \frozentest\Test\HelloWorld;
+       });
     }
 }
