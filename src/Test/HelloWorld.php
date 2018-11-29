@@ -9,7 +9,8 @@
 namespace frozentest\Test;
 
 
-class HelloWorld
-{
-
+class HelloWorld{
+    public function testezin($eae){
+        echo "Eae " . $eae;
+    }
 }
