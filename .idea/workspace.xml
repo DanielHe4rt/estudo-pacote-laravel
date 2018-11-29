@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3cdafb93-dc10-4d0d-8bb7-9889b10e7749" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/laravel-skeleton.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-skeleton.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PackageNameServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/PackageNameServiceProvider.php" afterDir="false" />
-    </list>
+    <list default="true" id="3cdafb93-dc10-4d0d-8bb7-9889b10e7749" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +106,7 @@
         <entry file="file://$PROJECT_DIR$/src/PackageNameServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="353">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+              <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
               <folding>
                 <element signature="e#29#64#0#PHP" expanded="true" />
               </folding>
@@ -277,12 +273,12 @@
       <workItem from="1543415875855" duration="2916000" />
       <workItem from="1543501117884" duration="1108000" />
       <workItem from="1543502976575" duration="664000" />
-      <workItem from="1543505023871" duration="1774000" />
+      <workItem from="1543505023871" duration="2016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6462000" />
+    <option name="totallyTimeSpent" value="6704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1552" height="832" extended-state="0" />
@@ -354,7 +350,7 @@
     <entry file="file://$PROJECT_DIR$/src/PackageNameServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
           <folding>
             <element signature="e#29#64#0#PHP" expanded="true" />
           </folding>
