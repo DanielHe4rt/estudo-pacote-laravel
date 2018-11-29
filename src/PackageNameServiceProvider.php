@@ -20,7 +20,7 @@ class frozentestServiceProvider extends ServiceProvider
     public function register()
     {
 
-       $this->app->singleton('hello.world',function($app){
+       $this->app->bind('hello.world',function($app){
             return new \frozentest\Test\HelloWorld;
        });
     }
